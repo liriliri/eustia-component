@@ -1,0 +1,31 @@
+{
+  "name": "eustia-component",
+  "version": "0.0.1",
+  "description": "Eustia component transpiler",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "cd test & eustia"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surunzi/eustia-component.git"
+  },
+  "keywords": [
+    "eustia",
+    "transpiler",
+    "html",
+    "component"
+  ],
+  "author": "redhoodsu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/surunzi/eustia-component/issues"
+  },
+  "homepage": "https://github.com/surunzi/eustia-component#readme",
+  "dependencies": {
+    "cheerio": "^0.19.0"
+  }
+}

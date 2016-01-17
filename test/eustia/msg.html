@@ -1,0 +1,17 @@
+<script>
+// This is the comment!
+</script>
+
+<require>template</require>
+
+<template id="message">
+<div class="msg"><%=msg%></div>
+</template>
+
+<script>
+var tpl = template(message);
+msg = function (str)
+{
+    return tpl({ msg: str });
+};
+</script>
