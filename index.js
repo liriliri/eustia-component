@@ -1,7 +1,7 @@
 var cheerio = require('cheerio'),
     _ = require('./lib/util');
 
-module.exports = function (name, src)
+module.exports = function (src)
 {
     var ret = '';
 
