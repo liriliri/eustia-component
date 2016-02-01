@@ -5,7 +5,7 @@ module.exports = {
         transpiler: [
             {
                 test: /\.html$/,
-                handler: require('../index')
+                handler: require('../index')()
             }
         ]
     }
