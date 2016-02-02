@@ -1,4 +1,5 @@
 /test/
 /eustia/
+/.idea/
 .eustia
 .gitignore
