@@ -7,7 +7,27 @@
     </head>
     <body>
         <script>
-        console.log(_.msg('Hello World!'));
+            var msg = _.msg;
+
+            msg('Hello world!');
+
+            msg('Hello world again!!!', {
+                duration: 5000,
+                background: '#d94d36',
+                delay: 4000
+            });
+
+            msg('Hahaaaa!!!', {
+                duration: 5000,
+                background: '#e48831',
+                delay: 10000
+            });
+
+            msg('This is the example of eustia-component.', {
+                duration: 0,
+                background: '#e9b730',
+                delay: 16000
+            });
         </script>
     </body>
 </html>
