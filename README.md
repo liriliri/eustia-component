@@ -1,8 +1,8 @@
 # eustia-component
 [Eustia](https://github.com/liriliri/eustia) plugin for translating html.
 
-> Note that this has nothing to do with web commponent, just a easy way to write
-eustia module with html and css.
+> Note that this has nothing to do with web commponent, just provides an easy 
+way to write eustia module with html and css.
 
 ## Installation
 
